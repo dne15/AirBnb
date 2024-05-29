@@ -73,7 +73,6 @@ body {
     }
 
 #icons img {
-    
     height: 100%;
     width: 100%;
     position: absolute;
@@ -86,6 +85,12 @@ body {
     column-gap: 24px;
     row-gap: 40px;
     border-radius: 16px;
+    line-break: strict;
+    line-height: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    text-size-adjust: 100%;
+    vertical-align: bottom;
 }
 
 #pastExperiences img {
@@ -102,31 +107,15 @@ body {
     column-gap: 24px;
     row-gap: 40px;
     border-radius: 16px;
+    line-break: strict;
+    line-height: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    text-size-adjust: 100%;
+    vertical-align: bottom;
 
 }
 
 p.hostName {
     color: grey;
 }
-
-:root {
-    --corner-radius-tiny: 4px;
-    --corner-radius-small: 8px;
-    --corner-radius-medium: 12px;
-    --corner-radius-large: 16px;
-    --corner-radius-xlarge: 20px;
-
-    --elevation-high-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
-    --elevation-high-border: 1px solid rgba(0, 0, 0, 0.04);
-  
-    --elevation-primary-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-    --elevation-primary-border: 1px solid rgba(0, 0, 0, 0.04);
-  
-    --elevation-secondary-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-    --elevation-secondary-border: 1px solid rgba(0, 0, 0, 0.04);
-  
-    --elevation-sharp-background: rgba(0, 0, 0, 0.08);
-  
-    --elevation-tertiary-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
-    --elevation-tertiary-border: 1px solid rgba(0, 0, 0, 0.08);
-  }
