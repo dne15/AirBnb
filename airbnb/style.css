@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+}
+
+footer {
+    background-color: #f7f7f7;
+    color: #222222;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 30px 24px;
+}
+
+h2 {
+    color: 222222;
+    font-size: 22px;
+    line-height: 2;
+}
+
+li {
+    list-style-type: none;
+    color: #222222;
+}
+
+#popular, #historic, #coastal, #islands, #lakes{
+    padding: 10px !important;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 6px 6px 6px -10px;
+    position: relative;
+}
+
+.rentals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 24px;
+    gap: 10px;
+    padding: 0px, 10px, 10px 10px!important;
+    color: #222222;
+    margin-bottom: 40px!important;
+    margin-top: 40px!important;
+    line-height: 20px;
+    list-style-position: outside;
+    
+}
+
+.rentals svg {
+    margin-left: 5px;
+}
+
+#aberfeldy, #amsterdam, #athens, #aviemore, #bakewell, #barcelona, #bath, #show-more {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+}
+
+.support-hosting-airbnb {
+    line-height: 1.8;
+}
