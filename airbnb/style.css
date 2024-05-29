@@ -59,3 +59,74 @@ li {
 .support-hosting-airbnb {
     line-height: 1.8;
 }
+body {
+    font-family: arial;
+}
+
+#icons #pastExperiences {
+    display: inline-block;
+    border-radius: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    height: 250px;
+    }
+
+#icons img {
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    vertical-align: bottom;
+    display: inline-block;
+    padding:1%;
+    position:relative;
+    flex-direction: column;
+    grid-column: 1;
+    column-gap: 24px;
+    row-gap: 40px;
+    border-radius: 16px;
+}
+
+#pastExperiences img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    vertical-align: bottom;
+    display: inline-block;
+    padding:1%;
+    position: relative;
+    flex-direction: column;
+    grid-column: 1;
+    column-gap: 24px;
+    row-gap: 40px;
+    border-radius: 16px;
+
+}
+
+p.hostName {
+    color: grey;
+}
+
+:root {
+    --corner-radius-tiny: 4px;
+    --corner-radius-small: 8px;
+    --corner-radius-medium: 12px;
+    --corner-radius-large: 16px;
+    --corner-radius-xlarge: 20px;
+
+    --elevation-high-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+    --elevation-high-border: 1px solid rgba(0, 0, 0, 0.04);
+  
+    --elevation-primary-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    --elevation-primary-border: 1px solid rgba(0, 0, 0, 0.04);
+  
+    --elevation-secondary-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    --elevation-secondary-border: 1px solid rgba(0, 0, 0, 0.04);
+  
+    --elevation-sharp-background: rgba(0, 0, 0, 0.08);
+  
+    --elevation-tertiary-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+    --elevation-tertiary-border: 1px solid rgba(0, 0, 0, 0.08);
+  }
