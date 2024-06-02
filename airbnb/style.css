@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+}
+
+footer {
+    background-color: #f7f7f7;
+    color: #222222;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 30px 24px;
+}
+
+h2 {
+    color: 222222;
+    font-size: 22px;
+    line-height: 2;
+}
+
+li {
+    list-style-type: none;
+    color: #222222;
+}
+
+#popular, #historic, #coastal, #islands, #lakes{
+    padding: 10px !important;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 6px 6px 6px -10px;
+    position: relative;
+}
+
+.rentals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 24px;
+    gap: 10px;
+    padding: 0px, 10px, 10px 10px!important;
+    color: #222222;
+    margin-bottom: 40px!important;
+    margin-top: 40px!important;
+    line-height: 20px;
+    list-style-position: outside;
+    
+}
+
+.rentals svg {
+    margin-left: 5px;
+}
+
+#aberfeldy, #amsterdam, #athens, #aviemore, #bakewell, #barcelona, #bath, #show-more {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+}
+
+.support-hosting-airbnb {
+    line-height: 1.8;
+}
+body {
+    font-family: arial;
+}
+
+#icons #pastExperiences {
+    display: inline-block;
+    border-radius: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    height: 250px;
+    }
+
+#icons img {
+    height: 238px;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    vertical-align: bottom;
+    display: inline-block;
+    padding:1%;
+    position:relative;
+    flex-direction: column;
+    grid-column: 1;
+    column-gap: 24px;
+    row-gap: 40px;
+    border-radius: 16px;
+    line-break: strict;
+    line-height: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    text-size-adjust: 100%;
+    vertical-align: bottom;
+}
+
+#pastExperiences img {
+    height: 238px;
+    width: 250px;
+    max-width: 100%;
+    position: absolute;
+    vertical-align: bottom;
+    display: inline-block;
+    padding:1%;
+    position:relative;
+    flex-direction: column;
+    grid-column: 1;
+    column-gap: 24px;
+    row-gap: 40px;
+    border-radius: 16px;
+    line-break: strict;
+    line-height: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    text-size-adjust: 100%;
+    vertical-align: bottom;
+
+}
+
+p.hostName {
+    color: grey;
+}
+
+.footerDetails svg {
+    margin-left: -5px;
+    float: left;
+}
+
+#english, #gbp {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    float: left;
+}
+
+#copyright, #privacy, #terms, #sitemap, #slaveryAct, #compDetails{
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    position: relative;
+}
+
+
