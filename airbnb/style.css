@@ -120,3 +120,25 @@ body {
 p.hostName {
     color: grey;
 }
+
+.footerDetails svg {
+    margin-left: -5px;
+    float: left;
+}
+
+#english, #gbp {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    float: left;
+}
+
+#copyright, #privacy, #terms, #sitemap, #slaveryAct, #compDetails{
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    position: relative;
+}
+
+
