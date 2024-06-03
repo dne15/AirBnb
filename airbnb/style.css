@@ -14,8 +14,8 @@ header {
 }
 
 body {
-    margin: 0;
     margin-top: 140px;
+    justify-content: center;
 }
 
 #searchBar svg {
@@ -27,7 +27,7 @@ body {
 #searchBar{
     background: transparent;
     display: flex;
-    width: 250px;
+    width: 230px;
     height: 100%;
     max-width: 100%;
     align-items: center;
@@ -153,7 +153,7 @@ li {
 
 #icons img {
     height: 238px;
-    width: 250px;
+    width: 300px;
     max-width: 100%;
     position: fixed;
     vertical-align: bottom;
@@ -164,7 +164,7 @@ li {
     grid-column: 1;
     column-gap: 24px;
     row-gap: 40px;
-    border-radius: 16px;
+    border-radius: 25px;
     line-break: strict;
     line-height: 20px;
     object-fit: cover;
@@ -175,7 +175,7 @@ li {
 
 #pastExperiences img {
     height: 238px;
-    width: 250px;
+    width: 300px;
     max-width: 100%;
     position: fixed;
     vertical-align: bottom;
@@ -186,7 +186,7 @@ li {
     grid-column: 1;
     column-gap: 24px;
     row-gap: 40px;
-    border-radius: 16px;
+    border-radius: 25px;
     line-break: strict;
     line-height: 20px;
     object-fit: cover;
