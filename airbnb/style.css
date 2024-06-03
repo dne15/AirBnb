@@ -2,6 +2,54 @@
     padding: 0;
 }
 
+#searchBar svg {
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+#searchBar{
+    background: transparent;
+    display: flex;
+    width: 250px;
+    height: 100%;
+    max-width: 100%;
+    align-items: center;
+    position: relative;
+    grid-template-columns: 52px, minmax(0, 1fr);
+    border-radius: 1000px;
+    box-sizing: border-box;
+    text-align: left;
+    border-style:none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.searchBarText {
+    font-size: 12px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.whereTo {
+    color: black;
+}
+
+#filter {
+    border-radius: 1000px;
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    background-color: white;
+
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+    gap: 10px; 
+}
+
 footer {
     background-color: #f7f7f7;
     color: #222222;
@@ -59,9 +107,7 @@ li {
 .support-hosting-airbnb {
     line-height: 1.8;
 }
-body {
-    font-family: arial;
-}
+
 
 #icons #pastExperiences {
     display: inline-block;
@@ -76,7 +122,7 @@ body {
     height: 238px;
     width: 250px;
     max-width: 100%;
-    position: absolute;
+    position: fixed;
     vertical-align: bottom;
     display: inline-block;
     padding:1%;
@@ -98,7 +144,7 @@ body {
     height: 238px;
     width: 250px;
     max-width: 100%;
-    position: absolute;
+    position: fixed;
     vertical-align: bottom;
     display: inline-block;
     padding:1%;
@@ -116,9 +162,14 @@ body {
     vertical-align: bottom;
 
 }
+h3 {
+    color: #222222;
+    font-size: 14px;
+}
 
 p.hostName {
     color: grey;
+    font-size: 14px;
 }
 
 .footerDetails svg {
