@@ -10,7 +10,7 @@ header {
     justify-content: center;
     z-index: 1000;
     padding: 10px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 body {
@@ -48,14 +48,14 @@ body {
 }
 
 .whereTo {
-    color: black;
+    color: #000000;
 }
 
 #filter {
     border-radius: 1000px;
     padding: 10px;
     border: 1px solid #b0b0b0;
-    background-color: white;
+    background-color: #FFFFFF;
 
 }
 
@@ -92,7 +92,7 @@ footer {
 }
 
 h2 {
-    color: 222222;
+    color: #222222;
     font-size: 22px;
     line-height: 2;
 }
@@ -201,7 +201,7 @@ h3 {
 }
 
 p.hostName {
-    color: grey;
+    color: #808080;
     font-size: 14px;
 }
 
@@ -229,14 +229,13 @@ p.hostName {
     display: fixed;
     justify-content:center;
     align-items:center;
-    background-color: white;
+    background-color: #FFFFFF;
     padding-left: 50px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     margin-bottom: 0px;
-    
 }
 
 .footer-menu li {
