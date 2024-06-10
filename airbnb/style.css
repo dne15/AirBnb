@@ -91,7 +91,8 @@ footer {
     color: #222222;
     text-decoration: none;
     font-size: 14px;
-    padding: 30px 24px;
+    padding: 20px 20px;
+    width: 300px;
 }
 
 /*Headings for images*/
@@ -234,28 +235,27 @@ p.hostName {
 }
 
 /*Static menu at bottom of page, Explore, Wishlists, Log in*/
+
+
 .footer-menu {
-    display: fixed;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
     background-color: #FFFFFF;
-    padding-left: 50px;
-    width: 100%;
     position: fixed;
+    width:350px;
     bottom: 0;
     left: 0;
+    right: 0;
     margin-bottom: 0px;
 }
 
 .footer-menu li {
-    float: left;
-    padding-top: 7px;
+    padding: 7px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-    
 }
 
 .footer-menu li a{
