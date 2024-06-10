@@ -18,6 +18,7 @@ body {
     justify-content: center;
 }
 
+/*Style for Where to? search bar*/
 #searchBar svg {
     margin-left: 10px;
     display: inline-block;
@@ -51,6 +52,7 @@ body {
     color: #000000;
 }
 
+/*Filter button*/
 #filter {
     border-radius: 1000px;
     padding: 10px;
@@ -66,6 +68,7 @@ body {
     gap: 10px; 
 }
 
+/*Menu underneath search bar*/
 .menu li {
     float: left;
     padding: 7px;
@@ -91,6 +94,7 @@ footer {
     padding: 30px 24px;
 }
 
+/*Headings for images*/
 h2 {
     color: #222222;
     font-size: 22px;
@@ -112,6 +116,7 @@ li {
     position: relative;
 }
 
+/*List of rental destinations in footer*/
 .rentals {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -137,11 +142,12 @@ li {
     font-size: 14px;
 }
 
+/*Links in footer for Support, Hosting and Airbnb*/
 .support-hosting-airbnb {
     line-height: 1.8;
 }
 
-
+/*Images*/
 #icons #pastExperiences {
     display: inline-block;
     border-radius: inherit;
@@ -195,6 +201,7 @@ li {
     vertical-align: bottom;
 
 }
+
 h3 {
     color: #222222;
     font-size: 14px;
@@ -205,6 +212,7 @@ p.hostName {
     font-size: 14px;
 }
 
+/*Bottom of Footer details*/
 .footerDetails svg {
     margin-left: -5px;
     float: left;
@@ -225,6 +233,7 @@ p.hostName {
     position: relative;
 }
 
+/*Static menu at bottom of page, Explore, Wishlists, Log in*/
 .footer-menu {
     display: fixed;
     justify-content:center;
